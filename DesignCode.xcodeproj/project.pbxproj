@@ -16,6 +16,8 @@
 		7B5F6287235CB4C5007A1B23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B5F6285235CB4C5007A1B23 /* LaunchScreen.storyboard */; };
 		7B5F628F235CF06B007A1B23 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F628E235CF06B007A1B23 /* Home.swift */; };
 		7BB6E56A235E97F000359967 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6E569235E97F000359967 /* BlurView.swift */; };
+		7BB6E56C235E9FE900359967 /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6E56B235E9FE900359967 /* UpdateList.swift */; };
+		7BB6E56E235EA82900359967 /* UpdateDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6E56D235EA82900359967 /* UpdateDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		7B5F6288235CB4C5007A1B23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B5F628E235CF06B007A1B23 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		7BB6E569235E97F000359967 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		7BB6E56B235E9FE900359967 /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
+		7BB6E56D235EA82900359967 /* UpdateDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 				7B5F627E235CB4C2007A1B23 /* ContentView.swift */,
 				7B5F628E235CF06B007A1B23 /* Home.swift */,
 				7B5DE56D235D434E00CEB444 /* HomeList.swift */,
+				7BB6E56B235E9FE900359967 /* UpdateList.swift */,
+				7BB6E56D235EA82900359967 /* UpdateDetails.swift */,
 				7BB6E569235E97F000359967 /* BlurView.swift */,
 				7B5F6280235CB4C5007A1B23 /* Assets.xcassets */,
 				7B5F6285235CB4C5007A1B23 /* LaunchScreen.storyboard */,
@@ -156,11 +162,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B5F627B235CB4C2007A1B23 /* AppDelegate.swift in Sources */,
+				7BB6E56C235E9FE900359967 /* UpdateList.swift in Sources */,
 				7B5DE56E235D434E00CEB444 /* HomeList.swift in Sources */,
 				7B5F627D235CB4C2007A1B23 /* SceneDelegate.swift in Sources */,
 				7B5F628F235CF06B007A1B23 /* Home.swift in Sources */,
 				7B5F627F235CB4C2007A1B23 /* ContentView.swift in Sources */,
 				7BB6E56A235E97F000359967 /* BlurView.swift in Sources */,
+				7BB6E56E235EA82900359967 /* UpdateDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
