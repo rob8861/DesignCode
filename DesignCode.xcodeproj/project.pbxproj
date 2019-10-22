@@ -15,6 +15,7 @@
 		7B5F6284235CB4C5007A1B23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B5F6283235CB4C5007A1B23 /* Preview Assets.xcassets */; };
 		7B5F6287235CB4C5007A1B23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B5F6285235CB4C5007A1B23 /* LaunchScreen.storyboard */; };
 		7B5F628F235CF06B007A1B23 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F628E235CF06B007A1B23 /* Home.swift */; };
+		7BB6E56A235E97F000359967 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6E569235E97F000359967 /* BlurView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		7B5F6286235CB4C5007A1B23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B5F6288235CB4C5007A1B23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B5F628E235CF06B007A1B23 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		7BB6E569235E97F000359967 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				7B5F627E235CB4C2007A1B23 /* ContentView.swift */,
 				7B5F628E235CF06B007A1B23 /* Home.swift */,
 				7B5DE56D235D434E00CEB444 /* HomeList.swift */,
+				7BB6E569235E97F000359967 /* BlurView.swift */,
 				7B5F6280235CB4C5007A1B23 /* Assets.xcassets */,
 				7B5F6285235CB4C5007A1B23 /* LaunchScreen.storyboard */,
 				7B5F6288235CB4C5007A1B23 /* Info.plist */,
@@ -157,6 +160,7 @@
 				7B5F627D235CB4C2007A1B23 /* SceneDelegate.swift in Sources */,
 				7B5F628F235CF06B007A1B23 /* Home.swift in Sources */,
 				7B5F627F235CB4C2007A1B23 /* ContentView.swift in Sources */,
+				7BB6E56A235E97F000359967 /* BlurView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

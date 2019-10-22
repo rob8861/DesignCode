@@ -15,19 +15,36 @@ struct HomeList: View {
     private var courses = coursesData
     
     var body: some View {
-        ScrollView(.horizontal, showsIndicators: false) {
-            HStack(spacing: 30) {
-                ForEach(courses) { item in
-                    CourseView(title: item.title, image: item.image, color: item.color, shadowColor: item.shadowColor)
-                        .sheet(isPresented: self.$showContent) { ContentView() }
-                        .onTapGesture {
-                            self.showContent.toggle()
+        VStack {
+            HStack {
+                VStack(alignment: .leading) {
+                    Text("Courses")
+                        .font(.largeTitle)
+                        .fontWeight(.heavy)
+                    Text("22 Courses")
+                        .foregroundColor(.gray)
+                    
+                }
+                Spacer()
+            }
+            .padding(.leading, 70.0)
+            .padding(.bottom, 40)
+            
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack(spacing: 30) {
+                    ForEach(courses) { item in
+                        CourseView(title: item.title, image: item.image, color: item.color, shadowColor: item.shadowColor)
+                            .sheet(isPresented: self.$showContent) { ContentView() }
+                            .onTapGesture {
+                                self.showContent.toggle()
+                        }
                     }
                 }
+                .padding(.leading, 40)
+                Spacer()
             }
-            .padding(.leading, 30)
-            Spacer()
         }
+        .padding(.top, 78)
     }
 }
 
@@ -50,7 +67,7 @@ struct CourseView: View {
                 .font(.title)
                 .fontWeight(.bold)
                 .foregroundColor(.white)
-                .padding(20)
+                .padding(30)
                 .lineLimit(4)
                 .padding(.trailing, 50)
             Spacer()
