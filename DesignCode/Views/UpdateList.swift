@@ -64,14 +64,6 @@ struct UpdateList_Previews: PreviewProvider {
 
 // date model
 
-struct Update: Identifiable {
-    var id = UUID()
-    var image: String
-    var title: String
-    var text: String
-    var date: String
-}
-
 let updateData = [
     Update(image: "Illustration1", title: "SwiftUI", text: "Learn how to build custom views and controls in SwiftUI with advanced composition, layout, graphics, and animation. See a demo of a high performance, animatable control and watch it made step by step in code. Gain a deeper understanding of the layout system of SwiftUI.", date: "JUN 26"),
     Update(image: "Illustration2", title: "Framer X", text: "Learn how to build custom views and controls in SwiftUI with advanced composition, layout, graphics, and animation. See a demo of a high performance, animatable control and watch it made step by step in code. Gain a deeper understanding of the layout system of SwiftUI.", date: "JUN 11"),
