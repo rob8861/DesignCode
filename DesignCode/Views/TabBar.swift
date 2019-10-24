@@ -23,7 +23,7 @@ struct TabBar: View {
                     Text("Certificates")
                 }
             }.tag(2)
-            UpdateList().tabItem {
+            Settings().tabItem {
                 VStack {
                     Image(systemName: "gear")
                     Text("Settings")
